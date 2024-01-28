@@ -4,11 +4,8 @@
     .header-button {
       width: $header-width;
       .inner-header-button {
-        box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.75);
-        font-size: 12px;
-        line-height: 25px;
-        margin-left: 30px;
-        height: 25px;
+        box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.75);
+       @include button;
         background-color: #abd9ff;
       }
       .inner-header-button:hover {

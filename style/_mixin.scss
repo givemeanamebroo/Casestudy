@@ -4,3 +4,7 @@
   line-height: 19px;
   font-size: 12px;
 }
+@mixin button { font-size: 12px;
+  line-height: 25px;
+  margin-left: 30px;
+  height: 25px;}
