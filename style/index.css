@@ -1,1 +1,100 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  font-family: "Cera Pro", sans-serif;
+  font-weight: 500;
+}
+
+.header .inner-header {
+  height: 55px;
+}
+.header .inner-header .header-button {
+  width: 500px;
+}
+.header .inner-header .header-button .inner-header-button {
+  box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.75);
+  font-size: 12px;
+  line-height: 25px;
+  margin-left: 30px;
+  height: 25px;
+  background-color: #abd9ff;
+}
+.header .inner-header .header-button .inner-header-button:hover {
+  background-color: transparent;
+  transition: 1s;
+}
+.header .inner-header .header-main .inner-header-main a {
+  text-decoration: none;
+  color: black;
+  line-height: 19px;
+  font-size: 12px;
+  color: #006db7;
+}
+.header .inner-header .header-sign-in {
+  width: 500px;
+}
+.header .inner-header .header-sign-in .inner-join-logo {
+  border-right: 1px solid black;
+}
+.header .inner-header .header-sign-in .inner-join-logo a {
+  text-decoration: none;
+  color: black;
+  line-height: 19px;
+  font-size: 12px;
+}
+.header .inner-header .header-sign-in .inner-join a {
+  text-decoration: none;
+  color: black;
+  line-height: 19px;
+  font-size: 12px;
+}
+.header .inner-navbar {
+  height: 75px;
+  background-color: #ffcf00;
+}
+.header .inner-navbar .nav-bar-logo {
+  width: 440px;
+  height: 100%;
+}
+.header .inner-navbar .nav-bar-logo .inner-nav-bar-logo {
+  height: 100%;
+  width: 440px;
+}
+.header .inner-navbar .nav-bar-logo .inner-nav-bar-logo a {
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  color: black;
+  line-height: 19px;
+  font-size: 12px;
+  font-size: 16px;
+}
+.header .inner-navbar .nav-bar-logo .inner-nav-bar-logo a img {
+  width: 55px;
+  height: 55px;
+}
+.header .inner-navbar .nav-bar-logo .inner-nav-bar-logo a:hover {
+  text-decoration: underline;
+}
+.header .inner-navbar .nav-bar-search {
+  width: 245px;
+}
+.header .inner-navbar .nav-bar-search .list-group-search a:first-child {
+  border-radius: 50%;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+}
+.header .inner-navbar .nav-bar-search .list-group-search a:last-child small {
+  position: absolute;
+  left: 40px;
+  text-decoration: none;
+  color: black;
+  line-height: 19px;
+  font-size: 12px;
+}
+.header .inner-navbar .nav-bar-search .list-group-search a {
+  background-color: transparent;
+  border: none;
+}
+.header .inner-navbar .nav-bar-search .list-group-search a:hover {
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */
