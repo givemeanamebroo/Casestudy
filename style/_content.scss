@@ -1,0 +1,110 @@
+.content-first {
+  .inner-content-first {
+    .content-first-top {
+      height: 575px;
+      .inner-top-first {
+        width: 1280px;
+        height: $max;
+        padding-top: 70px;
+        .first-top-title {
+          @include box-title;
+          padding-bottom: 30px;
+        }
+        .first-top-box {
+          width: $max;
+          height: 430px;
+          .first-top-items, .second-top-items{
+            width: 410px;
+            height: $max;
+            border: none;
+            p {
+              @include default-link;
+              font-size: 14px;
+            }
+            h5 {
+              @include default-link;
+              font-size: 20px;
+              line-height: 31px;
+            }
+            a {
+              color: black;
+              i {
+                margin-left: 5px;
+              }
+            }
+          }
+          .first-top-items:hover, .second-top-items:hover {
+            a {
+              text-decoration: underline;
+            }
+            i {
+              transform: translateX(5px);
+              transition: transform 1s;
+            }
+          }
+        }
+      }
+    }
+    .content-first-bottom {
+      height: 636px;
+      background-color: blanchedalmond;
+      .inner-bottom-first {
+        height: $max;
+        width: 1275px;
+        border: 1px solid black;
+        .first-bottom-title {
+          @include box-title;
+        }
+        .first-bottom-box {
+          .first-bottom-items {
+            border: none;
+            width: 290px;
+            .item-img {
+              height: 290px;
+
+              img {
+                width: 90%;
+                height: 70%;
+              }
+              .items-badge {
+                position: absolute;
+                left: 20px;
+                bottom: 10px;
+              }
+              .picture-modal {
+                @include modal;
+              }
+            }
+            div {
+              background-color: transparent;
+              a {
+                @include default-link;
+                font-size: 16px;
+                line-height: 25px;
+              }
+              a:hover {
+                text-decoration: underline;
+              }
+            }
+            .item-tag {
+              button {
+                @include item-button;
+
+                span {
+                  color: $light-gray;
+                }
+              }
+              button:hover {
+                background-color: transparent;
+                transition: 1s linear;
+                span {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

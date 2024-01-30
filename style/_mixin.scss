@@ -3,8 +3,32 @@
   color: black;
   line-height: 19px;
   font-size: 12px;
+  font-weight: 400;
 }
-@mixin button { font-size: 12px;
+@mixin button {
+  font-size: 12px;
   line-height: 25px;
   margin-left: 30px;
-  height: 25px;}
+  height: 25px;
+}
+@mixin box-title {
+  font-size: 32px;
+  line-height: 43px;
+}
+@mixin modal {
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  width: 25px;
+  height: 25px;
+  background-color: $light-gray;
+}
+@mixin item-button {
+  width: 250px;
+  height: 60px;
+  background-color: #e2222f;
+  border-radius: 5px;
+  border: 1px solid #e2222f;
+}

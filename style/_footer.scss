@@ -1,0 +1,45 @@
+.footer {
+  background-color: #201d48;
+  padding-top: 50px;
+  .inner-footer {
+    width: 1245px;
+    border: $default-border;
+    border: none;
+    .footer-menu {
+      width: 200px;
+      li {
+        font-weight: 800;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .footer-menu-items {
+        padding-left: 0px;
+        border: none;
+        background-color: transparent;
+        color: white;
+        img {
+          height: 90px;
+          width: 90px;
+        }
+        button {
+          width: 140px;
+          height: 40px;
+          background-color: #18152d;
+          border: none;
+          span {
+            color: white;
+            padding-left: 10px;
+          }
+        }
+        .modal-toggle {
+          .modal-dialog {
+            width: 1500px;
+            height: 100vh;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+}
