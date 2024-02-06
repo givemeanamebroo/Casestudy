@@ -13,10 +13,11 @@
         .first-top-box {
           width: $max;
           height: 430px;
-          .first-top-items, .second-top-items{
+          .first-top-items,
+          .second-top-items {
             width: 410px;
             height: $max;
-            border: none;
+            border: $none;
             p {
               @include default-link;
               font-size: 14px;
@@ -33,7 +34,8 @@
               }
             }
           }
-          .first-top-items:hover, .second-top-items:hover {
+          .first-top-items:hover,
+          .second-top-items:hover {
             a {
               text-decoration: underline;
             }
@@ -47,18 +49,55 @@
     }
     .content-first-bottom {
       height: 636px;
-      background-color: blanchedalmond;
       .inner-bottom-first {
         height: $max;
         width: 1275px;
-        border: 1px solid black;
         .first-bottom-title {
           @include box-title;
         }
         .first-bottom-box {
           .first-bottom-items {
-            border: none;
             width: 290px;
+            button {             
+              background-color: transparent;
+              border: $none;
+              .picture-modal {
+                @include modal;
+              }
+            }
+            .modal {
+              background-color: rgba(127, 115, 114, 0.1);
+              .modal-dialog {
+                .modal-content {
+                  background-color: white;
+                  .modal-body {
+                    .container-fluid {
+                      div {
+                        img {
+                          width: 70px;
+                          height: 70px;
+                        }
+                        span {
+                          @include modal-text;
+                          a {
+                            text-decoration: none;
+                            color: #006db7;
+                          }
+                        }
+                      }
+                      button {
+                        @include modal-button
+                      }
+                      button:hover {
+                        background-color: transparent;
+                        color: black;
+                        transition: 1s;
+                      }
+                    }
+                  }
+                }
+              }
+            }
             .item-img {
               height: 290px;
 
@@ -71,8 +110,11 @@
                 left: 20px;
                 bottom: 10px;
               }
-              .picture-modal {
-                @include modal;
+            }
+            .item-img:hover {
+              img {
+                transform: scaleY(1.2) scaleX(1.1);
+                transition: transform 1s;
               }
             }
             div {

@@ -2,7 +2,7 @@
   background-color: #201d48;
   padding-top: 50px;
   .inner-footer {
-    width: 1245px;
+    width: $inner-default;
     border: $default-border;
     border: none;
     .footer-menu {
@@ -33,10 +33,71 @@
           }
         }
         .modal-toggle {
+          border: none;
           .modal-dialog {
-            width: 1500px;
             height: 100vh;
             margin: 0px;
+          }
+        }
+      }
+    }
+  }
+  .footer-navbar {
+    width: $inner-default;
+    margin-top: 70px;
+    .list-group {
+      .list-group-item {
+        border: $none;
+        color: white;
+        background-color: transparent;
+        .input-group {
+          input {
+            border: $none;
+            outline: $none;
+            padding-left: 15px;
+          }
+          button {
+            background-color: #fd8024;
+            width: 50px;
+            height: 55px;
+            border: $none;
+          }
+        }
+        .list-group-horizontal {
+          width: 215px;
+          .link-icon {
+            @include circle;
+          }
+          .link-icon:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .footer-footer {
+    margin-top: 40px;
+    .inner-footer-footer {
+      .footer-nav-bar {
+        height: 50px;
+        width: $inner-default;
+        .footer-inner-nav-bar {
+          a {
+            @include default-link;
+            background-color: transparent;
+            border: $none;
+            color: white;
+          }
+          a:hover {text-decoration: underline;}
+        }
+      }
+      .footer-description {
+        margin-top: 10px;
+        .inner-footer-description {
+          width: $inner-default;
+          p {
+            color: white !important;
+            @include default-link;
           }
         }
       }

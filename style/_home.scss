@@ -50,6 +50,10 @@
         background-color: transparent;
         transition: 1s;
         color: black;
+        .fa-chevron-right {
+          color: black !important;
+          transition: 1s;
+        }
       }
     }
   }

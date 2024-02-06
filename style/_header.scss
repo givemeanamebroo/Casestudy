@@ -6,7 +6,7 @@
       width: $header-width;
       .inner-header-button {
         box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.75);
-       @include button;
+        @include button;
         background-color: #abd9ff;
       }
       .inner-header-button:hover {
@@ -23,7 +23,7 @@
       }
     }
     .header-sign-in {
-      width: $header-width;   
+      width: $header-width;
       .inner-join-logo {
         border-right: $default-border;
         a {
@@ -39,7 +39,7 @@
   }
   .inner-navbar {
     height: 75px;
-    background-color:#ffcf00 ;
+    background-color: #ffcf00;
     .nav-bar-logo {
       width: 440px;
       height: 100%;
@@ -69,7 +69,7 @@
           background-color: white;
           height: 40px;
           width: 40px;
-        }       
+        }
         a:last-child {
           small {
             position: absolute;
@@ -82,9 +82,10 @@
           border: $none;
         }
         a:hover {
-            text-decoration: $none;
-          }
+          text-decoration: $none;
+        }
       }
     }
   }
 }
+

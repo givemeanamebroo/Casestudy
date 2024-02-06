@@ -17,13 +17,15 @@
 }
 @mixin modal {
   border-radius: 50%;
-  border: none;
-  position: absolute;
   left: 20px;
   top: 10px;
   width: 25px;
   height: 25px;
-  background-color: $light-gray;
+  background-color: #e2222f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: $none;
 }
 @mixin item-button {
   width: 250px;
@@ -31,4 +33,26 @@
   background-color: #e2222f;
   border-radius: 5px;
   border: 1px solid #e2222f;
+}
+@mixin circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121029;
+}
+@mixin modal-text {
+  font-size: 14px;
+  line-height: 19px;
+}
+@mixin modal-button {
+  height: 55px;
+  width: 470px;
+  border-radius: 5px;
+  width: $max;
+  border: 1px solid #006db7;
+  background-color: #006db7;
+  color: $light-gray;
 }
